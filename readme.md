@@ -6,6 +6,12 @@
 
 #### Proyecto 100% open source, si tienes deseo de colaborar por favor no dudes en escribir: bryanvalerin@gmail.com
 
+## Stack Utilizado
+- Backend - Laravel 10
+- Frontend - NextJs 13
+- Estilos - Tailwind 3
+- Persistencia - MySQL 8
+
 ## License
 
 MIT
