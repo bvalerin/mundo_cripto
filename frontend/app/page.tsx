@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { SITE } from '~/config.js';
 
 import Hero from '~/components/widgets/Hero';
+import Hero2 from '~/components/widgets/Hero';
+
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features3 from '~/components/widgets/Features3';
 import Content from '~/components/widgets/Content';
@@ -19,6 +21,7 @@ import {
   faqsData2,
   featuresData,
   heroData,
+  hero2Data,
   pricingData,
   socialProofData,
 } from '~/shared/data';
@@ -32,7 +35,7 @@ export default function Page() {
   return (
     <>
       <Hero data={heroData} />
-      <SocialProof {...socialProofData} />
+      {/* <SocialProof {...socialProofData} />
       <Features3 {...featuresData} />
       <Content {...contentData} />
       <Content {...content2Data} />
@@ -42,7 +45,7 @@ export default function Page() {
       <Pricing {...pricingData} />
       <Team />
       <Contact />
-      <CallToAction2 {...callToActionData} />
+      <CallToAction2 {...callToActionData} /> */}
     </>
   );
 }

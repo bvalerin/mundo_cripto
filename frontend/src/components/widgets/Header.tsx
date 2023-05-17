@@ -11,6 +11,7 @@ import CTA from '../common/CTA';
 import CallToAction from './CallToAction';
 
 const Header = () => {
+    
   const { links, actions, isSticky, showToggleTheme, showRssFeed, position } = headerData;
 
   const updatedIsDropdownOpen =

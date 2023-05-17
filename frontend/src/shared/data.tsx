@@ -7,6 +7,7 @@ import {
   IconBrandLinkedin,
   IconBrandTailwind,
   IconBrandTwitter,
+  IconBrandWhatsapp,
   IconBulb,
   IconCheck,
   IconChevronDown,
@@ -44,7 +45,7 @@ import {
 
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/btc_hero.jpg';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
@@ -54,14 +55,14 @@ import typescriptLogo from '~/assets/images/typescript-logo.png';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
-  title: 'NEW',
+  title: 'NUEVO',
   callToAction: {
-    text: 'Este es un mensaje »',
-    href: 'https://nextjs.org/docs/app',
+    text: 'Bienvenido a Mundo Cripto »',
+    href: '#',
   },
   callToAction2: {
     text: 'Siguenos en Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    href: '#',
   },
 };
 
@@ -125,20 +126,19 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+     <span className=""></span> <span>Comunidad Honesta</span> +{' '}
+      <span className="sm:whitespace-nowrap">Transacciones P2P Seguras</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+        <span className="font-semibold decoration-1 underline-offset-2">
+          Mundo Cripto
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        es una comunidad en la que amamos hacer transacciones con Criptomonedas <em></em>  <em> </em>.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Nuestro objetivo es hacer que la comunidad se sienta segura al hacer transacciones con los integrantes ya que para ser parte se debe pasar un filtro de seguridad en el que se valida la identidad de cada persona!
     </>
   ),
   callToAction: {
@@ -1365,44 +1365,44 @@ export const footerData: FooterProps = {
 export const footerData2: FooterProps = {
   links: [
     {
-      label: 'Terms & Conditions',
+      label: 'Términos y Condiciones',
       href: '/terms',
     },
     {
-      label: 'Privacy Policy',
+      label: 'Politica de Privacidad',
       href: '/privacy',
     },
   ],
   columns: [
     {
-      title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      title: 'Dirección',
+      texts: ['Torres Paseo Colón', 'San José, Costa Rica'],
     },
     {
-      title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      title: 'Teléfono',
+      texts: ['Soporte: +506 8975 4741', ''],
     },
     {
-      title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      title: 'Correo',
+      texts: ['Soporte: mundocripto@asystec.io', 'Sitio: https://mundocripto.asystec.io'],
     },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Whatsapp', icon: IconBrandWhatsapp, href: 'https://chat.whatsapp.com/ImoQpGWRz1eGAiYDobTKkf' },
+    // { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
+    // { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
+    // { label: 'RSS', icon: IconRss, href: '#' },
+    // { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+        Desarrollado con Amor por {''}
+      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://asystec.io/" target='_blank'>
         {' '}
-        onWidget
+        Asystec
       </a>{' '}
-      · All rights reserved.
+      ·Todos los derechos reservados.
     </div>
   ),
 };
