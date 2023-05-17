@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content="../src/assets/images/mundo_cripto.png" />
+        <meta property="og:image" content="/public/images/mundo_cripto.png" />
         <meta property="og:image:width" content="100px" />
         <meta property="og:image:height" content="100px" />
       </head>
