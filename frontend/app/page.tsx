@@ -35,8 +35,8 @@ export default function Page() {
   return (
     <>
       <Hero data={heroData} />
-      {/* <SocialProof {...socialProofData} />
-      <Features3 {...featuresData} />
+      <SocialProof {...socialProofData} />
+      {/*<Features3 {...featuresData} />
       <Content {...contentData} />
       <Content {...content2Data} />
       <Steps />

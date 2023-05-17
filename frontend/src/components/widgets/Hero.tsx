@@ -17,9 +17,9 @@ const Hero = (props: { data: HeroProps }) => {
             )}
             <div className="mx-auto max-w-3xl">
               {subtitle && <p className="mb-2 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
-              <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
-                {/* <CTA data={callToAction as CallToAction} />
-                <CTA data={callToAction2 as CallToAction} /> */}
+              <div className="mt-10 flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
+                 <CTA data={callToAction as CallToAction} />
+                {/* <CTA data={callToAction2 as CallToAction} /> */}
               </div>
             </div>
           </div>

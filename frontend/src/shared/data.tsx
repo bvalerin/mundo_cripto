@@ -48,8 +48,8 @@ import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/btc_hero.jpg';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
+import binanceLogo from '~/assets/images/binance_logo.png';
+import coinbaseLogo from '~/assets/images/coinbase_logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 
@@ -69,57 +69,49 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
   links: [
-    {
-      label: 'Pages',
-      icon: IconChevronDown,
-      links: [
-        {
-          label: 'About us',
-          href: '/about',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-      ],
-    },
+    // {
+    //   label: 'Pages',
+    //   icon: IconChevronDown,
+    //   links: [
+    //     // {
+    //     //   label: 'About us',
+    //     //   href: '/about',
+    //     // },
+    //     // {
+    //     //   label: 'Pricing',
+    //     //   href: '/pricing',
+    //     // },
+    //     // {
+    //     //   label: 'Contact us',
+    //     //   href: '/contact',
+    //     // },
+    //     {
+    //       label: 'FAQs',
+    //       href: '/faqs',
+    //     },
+    //   ],
+    // },
     {
       label: 'Blog',
       href: '/blog',
     },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
+    // {
+    //   label: 'Contact',
+    //   href: '/contact',
+    // },
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
-      btnType: 'primary',
-    },
+        text: 'Iniciar Sesion',
+        href: '/',
+        targetBlank: false,
+        btnType: 'primary',
+      },
   ],
   isSticky: true,
   showToggleTheme: true,
   showRssFeed: false,
-  position: 'right',
+  position: 'center',
 };
 
 // Hero data
@@ -142,9 +134,9 @@ export const heroData: HeroProps = {
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Comunidad',
+    href: 'https://chat.whatsapp.com/ImoQpGWRz1eGAiYDobTKkf',
+    icon: IconBrandWhatsapp,
     targetBlank: true,
     btnType: 'primary',
   },
@@ -154,7 +146,7 @@ export const heroData: HeroProps = {
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'Hero Mundo Cripto',
   },
 };
 
@@ -183,25 +175,25 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
+      link: 'https://www.binance.com/es',
+      src: binanceLogo,
+      alt: 'Binance Logo',
     },
     {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
+      link: 'https://www.coinbase.com/es/',
+      src: coinbaseLogo,
+      alt: 'Coinbase Logo',
     },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
-    },
+    // {
+    //   link: 'https://tailwindcss.com/',
+    //   src: tailwindCssLogo,
+    //   alt: 'Tailwind CSS Logo',
+    // },
+    // {
+    //   link: 'https://www.typescriptlang.org/',
+    //   src: typescriptLogo,
+    //   alt: 'Typescript Logo',
+    // },
   ],
 };
 
